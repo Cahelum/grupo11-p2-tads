@@ -1,5 +1,4 @@
 package stack;
-import nodoSimple.*;
 
 public interface Stack<T> {
 

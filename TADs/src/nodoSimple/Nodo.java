@@ -3,7 +3,7 @@ package nodoSimple;
 public class Nodo<T> {
 
 	private T valor;
-	private Nodo next;
+	private Nodo<T> next;
 
 	public Nodo(T valor) {
 		next = null;
@@ -20,11 +20,11 @@ public class Nodo<T> {
 		this.valor = valor;
 	}
 
-	public Nodo getNext() {
+	public Nodo<T> getNext() {
 		return next;
 	}
 
-	public void setNext(Nodo next) {
+	public void setNext(Nodo<T> next) {
 
 		this.next = next;
 	}
