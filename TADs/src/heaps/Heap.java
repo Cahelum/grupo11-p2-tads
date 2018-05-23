@@ -6,6 +6,9 @@ public interface Heap<K extends Comparable<K>,T> {
 	public NodeH<K,T> find(K key);
 	//public NodeH<K,T> findMax(K key);
 	//public NodeH<K,T> findMin(K key);
+	public void delete ();
+	public void imprimir();
+	
 	
 
 }
