@@ -1,4 +1,4 @@
-package heaps;
+package uy.edu.prog.heaps;
 
 
 

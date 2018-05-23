@@ -1,4 +1,4 @@
-package heaps;
+package uy.edu.prog.heaps;
 
 public class MyHeap<K extends Comparable<K>, T> implements Heap<K, T> {
 
